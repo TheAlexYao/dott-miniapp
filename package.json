@@ -10,13 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coinbase/onchainkit": "^0.35.5",
     "axios": "^1.7.7",
     "lucide-react": "^0.460.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0",
     "tailwind-scrollbar-hide": "^1.1.7",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "wagmi": "^2.12.33"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
