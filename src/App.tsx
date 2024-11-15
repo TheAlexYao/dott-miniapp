@@ -9,14 +9,12 @@ import {
 } from "react-router-dom";
 import "@coinbase/onchainkit/styles.css";
 import { Providers } from "./AppProviders";
-import Home from "./components/Home"; // Assuming you have Home.tsx in the pages directory
-// import ChatScreen from "./pages/ChatScreen"; // Assuming you have ChatScreen as a page component
+import Home from "./components/Home";
+// import ChatScreen from "./pages/ChatScreen";
 
 const App: React.FC = () => {
   return (
     <Providers>
-      {" "}
-      {/* Wrap your app with AppProviders */}
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

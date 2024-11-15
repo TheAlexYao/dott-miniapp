@@ -1,7 +1,7 @@
 import { OnchainKitProvider } from "@coinbase/onchainkit";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { getConfig } from "./wagmi"; // your import path may vary
-import { base } from "wagmi/chains"; // add baseSepolia for testing
+import { getConfig } from "./wagmi";
+import { base } from "wagmi/chains";
 import { type ReactNode, useState } from "react";
 import { type State, WagmiProvider } from "wagmi";
 
